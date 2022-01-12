@@ -22,5 +22,6 @@
   "gridUnits": "meters",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "shields",
-  "initiative": "1d20 + @dexerityMod"
+  "initiative": "1d20 + @dexerityMod",
+  "manifest": "https://raw.githubusercontent.com/lancegonzalez7/Foundry_ME5e/master/system.json"
 }
