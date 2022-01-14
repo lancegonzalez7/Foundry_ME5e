@@ -3,7 +3,7 @@
   "title": "Mass Effect 5e",
   "description": "A system for playing Mass Effect 5e games.",
   "author": "Sparkops7",
-  "version": "1.3.1",
+  "version": 1.31,
   "minimumCoreVersion": "0.9.242",
   "compatibleCoreVersion": "0.9.242",
   "esmodules": [
@@ -22,6 +22,5 @@
   "gridUnits": "meters",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "shields",
-  "initiative": "1d20 + @dexerityMod",
-  "manifest": "https://raw.githubusercontent.com/lancegonzalez7/Foundry_ME5e/main/system.json"
+  "initiative": "1d20 + @dexerityMod"
 }
