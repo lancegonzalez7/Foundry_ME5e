@@ -1,4 +1,37 @@
 {
     "Actor": {},
-    "Item": {}
+    "Item": {
+        "types": [
+            "weapon",
+            "vehicle",
+            "armor",
+            "mods",
+            "omni-toolPrograms"
+        ],
+        "weapon": {
+            "attackWith": "dex",
+            "damageDice": "0d4",
+            "damgageType": "piercing",
+            "heat": 0,
+            "range": 0,
+            "longRange": 0,
+            "weight": 0,
+            "cost": 0,
+            "properties": {
+                
+            }
+        },
+        "vehicle":{
+
+        },
+        "armor":{
+
+        },
+        "mods":{
+
+        },
+        "omni-toolPrograms":{
+
+        }
+    }
 }
