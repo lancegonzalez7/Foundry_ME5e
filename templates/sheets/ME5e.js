@@ -4,6 +4,6 @@ Hooks.once("init", function(){
     console.log("ME5e | Initializing ME5e System");
 
     ME5eItemSheet.unregisterSheet("core", ItemSheet);
-    ME5eItemSheet.registerSheet("ME5e",ME5eItemSheet, {makeDefault: true});
+    ME5eItemSheet.registerSheet("Foundry_ME5e", ME5eItemSheet, {makeDefault: true});
 
-})
+});
