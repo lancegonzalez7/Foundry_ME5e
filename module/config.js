@@ -1,6 +1,6 @@
 export const ME5e = {};
 
-ME5e.weaponTypes = {
+ME5e.weaponType = {
     none: "",
     assaultRifle: ME5e.weaponType.assaultRifle,
     heavyPistol: ME5e.weaponType.heavyPistol,

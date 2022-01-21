@@ -11,6 +11,7 @@
             "sniperRifle": "Sniper Rifle"
         },
         "weapon": {
+            "weaponType": "Weapon Type",
             "rarity": "Rarity",
             "charges": "Charges",
             "cost": "Cost",
