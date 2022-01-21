@@ -1,25 +1,53 @@
 {
-    "Actor": {},
+    "Actor": {
+        "types":[
+            "operative",
+            "npc",
+            "vehicle"
+        ]
+    },
     "Item": {
         "types": [
             "weapon",
-            "vehicle",
+            "vehicleMod",
             "armor",
             "mods",
-            "omni-toolPrograms"
+            "gear"
         ],
         "weapon": {
+            "name": "",
+            "rarity": "",
+            "type":"",
             "attackWith": "dex",
+            "cost": 0,
             "damageDice": "0d4",
             "damgageType": "piercing",
-            "heat": 0,
+            "rangeFull":"",
             "range": 0,
             "longRange": 0,
+            "heat": 0,
             "weight": 0,
-            "cost": 0,
+            "specialText": "",
             "properties": {
-                
-            }
+                "andromeda":0,
+                "arc":0,
+                "bludgeoning":0,
+                "burstFire":0,
+                "doubleTap":0,
+                "Finesse":0,
+                "heavy":0,
+                "hipFire":0,
+                "light":0,
+                "reach":0,
+                "recoil":0,
+                "silent":0,
+                "slashing":0,
+                "special":0,
+                "thrown":0,
+                "twoHanded":0,
+                "versitile":0
+            },
+            "image":""
         },
         "vehicle":{
 
@@ -30,7 +58,7 @@
         "mods":{
 
         },
-        "omni-toolPrograms":{
+        "gear":{
 
         }
     }
