@@ -31,7 +31,7 @@
         "weapon": {
             "name": "",
             "rarity": "",
-            "type": "",
+            "weaponType": "",
             "attackWith": "dex",
             "cost": 0,
             "damageDice": "0d4",
