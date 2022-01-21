@@ -1,6 +1,6 @@
 {
     "ME5e": {
-        "weaponType": {
+        "weaponTypeList": {
             "none": "",
             "assaultRifle": "Assault Rifle",
             "heavyPistol": "Heavy Pistol",
