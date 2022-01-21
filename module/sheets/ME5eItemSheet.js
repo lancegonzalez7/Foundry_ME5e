@@ -6,8 +6,16 @@ export default class ME5eItemSheet extends ItemSheet {
     getData() {
         const data = super.getData();
 
-        data.config = CONFIG.ME5e;
+        let sheetData = {
+            owner: this.item.isOwner,
+            editable: this.IsEditable,
+            item: baseData.item,
+            data: baseData.item.data.data,
+            config: CONFIG.ME5e
+        };
 
-        return data;
+        /*data.config = CONFIG.ME5e;*/
+
+        return sheetData;
     }
 }
