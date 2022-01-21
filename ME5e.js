@@ -9,4 +9,4 @@ Hooks.once("init", function() {
     Items.unregisterSheet("core", ItemSheet);
     Items.registerSheet("Foundry_ME5e", ME5eItemSheet, {makeDefault: true});
 
-});s
+});
