@@ -1,0 +1,25 @@
+{
+    "ME5e":{
+        "weaponType":{
+            "none": "",
+            "assaultRifle":"Assault Rifle",
+            "heavyPistol": "Heavy Pistol",
+            "heavyWeapon": "Heavy Weapon",
+            "melee": "Melee",
+            "shotgun": "Shotgun",
+            "smg":"SMG",
+            "sniperRifle": "Sniper Rifle"
+        },
+        "weapon":{
+            "rarity": "Rarity",
+            "charges":"Charges",
+            "cost":"Cost",
+            "damageDice":"Damage Dice",
+            "damageType": "Damage Type",
+            "range":"Range",
+            "heat":"Heat",
+            "weight":"Weight",
+            "specialText":"Special Description"
+        }
+    }
+}
