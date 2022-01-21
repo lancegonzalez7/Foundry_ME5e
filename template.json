@@ -1,10 +1,19 @@
 {
     "Actor": {
-        "types":[
+        "types": [
             "operative",
             "npc",
             "vehicle"
-        ]
+        ],
+        "operative" :{
+            "name":""
+        },
+        "npc":{
+            "name":""
+        },
+        "vehicle":{
+            "name":""
+        }
     },
     "Item": {
         "types": [
@@ -14,52 +23,57 @@
             "mods",
             "gear"
         ],
+        "templates": {
+            "itemDescription": {
+                "description": ""
+            }
+        },
         "weapon": {
             "name": "",
             "rarity": "",
-            "type":"",
+            "type": "",
             "attackWith": "dex",
             "cost": 0,
             "damageDice": "0d4",
             "damgageType": "piercing",
-            "rangeFull":"",
+            "rangeFull": "",
             "range": 0,
             "longRange": 0,
             "heat": 0,
             "weight": 0,
             "specialText": "",
             "properties": {
-                "andromeda":0,
-                "arc":0,
-                "bludgeoning":0,
-                "burstFire":0,
-                "doubleTap":0,
-                "Finesse":0,
-                "heavy":0,
-                "hipFire":0,
-                "light":0,
-                "reach":0,
-                "recoil":0,
-                "silent":0,
-                "slashing":0,
-                "special":0,
-                "thrown":0,
-                "twoHanded":0,
-                "versitile":0
+                "andromeda": 0,
+                "arc": 0,
+                "bludgeoning": 0,
+                "burstFire": 0,
+                "doubleTap": 0,
+                "Finesse": 0,
+                "heavy": 0,
+                "hipFire": 0,
+                "light": 0,
+                "reach": 0,
+                "recoil": 0,
+                "silent": 0,
+                "slashing": 0,
+                "special": 0,
+                "thrown": 0,
+                "twoHanded": 0,
+                "versitile": 0
             },
-            "image":""
+            "image": ""
         },
-        "vehicle":{
-
+        "vehicle": {
+            "name":""
         },
-        "armor":{
-
+        "armor": {
+            "name":""
         },
-        "mods":{
-
+        "mods": {
+            "name":""
         },
-        "gear":{
-
+        "gear": {
+            "name":""
         }
     }
 }
