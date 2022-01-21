@@ -4,7 +4,7 @@ export default class ME5eItemSheet extends ItemSheet {
     }
 
     getData() {
-        const data = super.getData();
+        const baseData = super.getData();
 
         let sheetData = {
             owner: this.item.isOwner,
