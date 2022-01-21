@@ -17,7 +17,7 @@
         {
             "lang": "en",
             "name": "English",
-            "path": "lang/en.json"
+            "path": "./lang/en.json"
         }
     ],
     "gridDistance": 2,
