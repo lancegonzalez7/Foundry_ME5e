@@ -11,7 +11,7 @@ export default class ME5eItemSheet extends ItemSheet {
             editable: this.IsEditable,
             item: baseData.item,
             data: baseData.item.data.data,
-            config: CONFIG.ME5e
+            config: CONFIG.FOUNDRY_ME5e
         };
 
         /*data.config = CONFIG.ME5e;*/
